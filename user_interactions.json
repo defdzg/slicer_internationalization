@@ -1,0 +1,91 @@
+{
+    "metadata": {
+      "software": "Slicer",
+      "date": "2023-04-16",
+      "time": "12:00:00",
+      "user": "John Doe",
+      "session_id": "12345"
+    },
+    "interactions": [
+      {
+        "type": "click",
+        "element": "button",
+        "label": "Load Image",
+        "timestamp": "2023-04-16T12:01:00.000Z",
+        "screenshot": "/screenshots/load_image.png",
+        "pointer_location": {
+          "x": 100,
+          "y": 200
+        }
+      },
+      {
+        "type": "key_press",
+        "key": "s",
+        "timestamp": "2023-04-16T12:02:00.000Z",
+        "screenshot": "/screenshots/save_image.png",
+        "pointer_location": {
+          "x": 150,
+          "y": 250
+        }
+      },
+      {
+        "type": "click",
+        "element": "button",
+        "label": "Process Image",
+        "timestamp": "2023-04-16T12:03:00.000Z",
+        "screenshot": "/screenshots/process_image.png",
+        "pointer_location": {
+          "x": 200,
+          "y": 300
+        }
+      },
+      {
+        "type": "scroll",
+        "direction": "down",
+        "timestamp": "2023-04-16T12:04:00.000Z",
+        "screenshot": "/screenshots/scroll_down.png",
+        "pointer_location": {
+          "x": 250,
+          "y": 350
+        }
+      },
+      {
+        "type": "hover",
+        "element": "button",
+        "label": "Zoom In",
+        "timestamp": "2023-04-16T12:05:00.000Z",
+        "screenshot": "/screenshots/zoom_in_hover.png",
+        "pointer_location": {
+          "x": 300,
+          "y": 400
+        }
+      },
+      {
+        "type": "click",
+        "element": "button",
+        "label": "Zoom In",
+        "timestamp": "2023-04-16T12:06:00.000Z",
+        "screenshot": "/screenshots/zoom_in_click.png",
+        "pointer_location": {
+          "x": 350,
+          "y": 450
+        }
+      },
+      {
+        "type": "drag",
+        "element": "image",
+        "timestamp": "2023-04-16T12:07:00.000Z",
+        "screenshot": "/screenshots/drag_image.png",
+        "pointer_location": [
+          {
+            "x": 400,
+            "y": 500
+          },
+          {
+            "x": 450,
+            "y": 550
+          }
+        ]
+      }
+    ]
+  }
